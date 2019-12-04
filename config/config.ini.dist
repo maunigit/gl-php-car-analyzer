@@ -1,0 +1,5 @@
+[database]
+db_servername = my_db_servername
+db_name = my_db_name
+db_user = my_db_user
+db_password = my_db_password

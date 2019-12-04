@@ -1,0 +1,12 @@
+<!-- For a detailed explanation 
+see: https://phpunit.readthedocs.io/en/8.3/organizing-tests.html
+see: https://gist.github.com/GaryRogers/0fb41d649fa75d58eb8f
+--> 
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+  <testsuites>
+    <testsuite name="php-car-analyzer Test Suite">
+      <!--<file>tests\Analyzer\CarDataTest.php</file>-->
+      <file>tests\Analyzer\PricesDBTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
